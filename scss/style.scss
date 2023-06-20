@@ -1,0 +1,38 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ html,body {
+   height: 100%;
+   padding: 30px;
+   background-color: #7A956B;
+   font-size: 30px;
+}
+p {
+   display:-webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; 
+   overflow: hidden;
+}
+//  }
+// .screen {
+//    min-height: 100vh;
+//    &:nth-child(1) {
+//       background-color: #794f45;
+//    }
+//    &:nth-child(2) {
+//       background-color: #7A956B;
+//    }
+//    &:nth-child(3) {
+//       background-color: #77608d;
+//    }
+//    &__item {
+//       position: fixed;
+//       top: 0;
+//       left: 0;
+//       width: 100px;
+//       height: 100px;
+//       background-color: #77608d;
+//    }
+// }
